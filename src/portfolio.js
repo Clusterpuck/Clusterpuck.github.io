@@ -3,13 +3,12 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/codeOnScreen"; // Rename to your file name for custom animation
 
 // Splash Screen
 
 const splashScreen = {
   enabled: false, // set false to disable splash screen
-  animation: splashAnimation,
+  animation: null,
   duration: 2000 // Set animation duration as per your animation
 };
 
@@ -46,15 +45,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Learn to code and code to learn. I love solving problems and finding a more efficient way of completing your task.",
+  subTitle:
+    "Learn to code and code to learn. I love solving problems and finding a more efficient way of completing your task.",
   skills: [
-    emoji(
-      "⚡ Embrace new technologies while learning existing traditions"
-    ),
+    emoji("⚡ Embrace new technologies while learning existing traditions"),
     emoji("⚡ Engaging groups in collaborative and productive workshops "),
-    emoji(
-      "⚡ Developing framework projects for further expansion"
-    )
+    emoji("⚡ Developing framework projects for further expansion")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -92,8 +88,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "node.js",
       fontAwesomeClassname: "fab fa-node-js"
-    },
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -155,7 +150,7 @@ const workExperiences = {
     {
       role: "Intern",
       company: "AVI",
-      companylogo: require("./assets/images/avilogo.png"),
+      companylogo: require("./assets/images/avilogo.jpeg"),
       date: "November 2023 – February 2024",
       desc: "Developed a task management application, both a web and mobile application and SQL database."
     },
@@ -171,10 +166,10 @@ const workExperiences = {
       company: "Programmed/Innovation Central Perth",
       companylogo: require("./assets/images/programmedlogo.png"),
       date: "November 2022 – February 2023",
-      desc: "Developed a sustainability dashboard with Power BI.\n" +
-      "Included a scheme to interface with multiple existing databases, " + 
-      "and cleaned data and provided methods for generic data updates." ,
-     
+      desc:
+        "Developed a sustainability dashboard with Power BI.\n" +
+        "Included a scheme to interface with multiple existing databases, " +
+        "and cleaned data and provided methods for generic data updates."
     },
     {
       role: "Sessional Computing Tutor",
@@ -203,7 +198,8 @@ const bigProjects = {
     {
       image: require("./assets/images/recipefinder.png"),
       projectName: "Recipe Finder",
-      projectDesc: "My first API and React project to find recipes based on ingredients.",
+      projectDesc:
+        "My first API and React project to find recipes based on ingredients.",
       footerLink: [
         {
           name: "Visit Website",
@@ -231,9 +227,7 @@ const achievementSection = {
         "Obtained VC List recognition at Curtin University for achieving the top 1% of grades in 2021.",
       image: require("./assets/images/curtinlogo.png"),
       imageAlt: "Curtin University Logo",
-      footerLink: [
-       
-      ]
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true

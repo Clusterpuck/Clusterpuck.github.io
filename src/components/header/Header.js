@@ -42,8 +42,8 @@ function Header() {
           style={{color: "white"}}
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
-        </label>  
-        
+        </label>
+
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
@@ -95,8 +95,6 @@ function Header() {
             </a>
           </li>
         </ul>
-
-       
       </header>
     </Headroom>
   );

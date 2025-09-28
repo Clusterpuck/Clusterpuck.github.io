@@ -18,7 +18,6 @@
   line-height: 1.5rem;
 }
 
-
 .certificate-card-dark {
   max-width: 50%;
   background-color: $lightBackground2;
@@ -30,7 +29,6 @@
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-
 
 .certificate-card {
   max-width: 50%;
@@ -94,16 +92,12 @@ span.certificate-tag:hover {
   background: $buttonHover;
 }
 
-@media (max-width: 500px)
-{
+@media (max-width: 500px) {
   .certificate-card-dark {
     max-width: 90%;
   }
 
-    
   .certificate-card {
     max-width: 90%;
   }
-
-
 }

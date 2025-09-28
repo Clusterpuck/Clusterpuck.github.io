@@ -3,19 +3,18 @@ Certain colors are used for different and multiply types of elements.
 For greater control over colors visit each components .scss file. */
 
 //color theme
-$primaryColor: #CF2637;
-$secondaryColor: #00E0F5;
-$tertiaryColor: #EAC435;
-$darkTextColor: #1F1C22;
+$primaryColor: #cf2637;
+$secondaryColor: #00e0f5;
+$tertiaryColor: #eac435;
+$darkTextColor: #1f1c22;
 $darkTextSecondary: #7e748a;
-$lightTextColor: #D9D7DD;
-$lightTextSecondary: #E0DDE3;
+$lightTextColor: #d9d7dd;
+$lightTextSecondary: #e0dde3;
 $darkBackground2: #3f3a45;
-
 
 // button colors
 $buttonColor: $primaryColor;
-$buttonHover: $secondaryColor; 
+$buttonHover: $secondaryColor;
 $topButtonHover: $secondaryColor;
 
 // text colors light theme
@@ -32,7 +31,6 @@ $textColorDark: $lightTextColor;
 // toggle switch colors
 $toggleCheck: $secondaryColor;
 $toggleSwitchSliderBG: $lightTextColor;
-
 
 // light background colors
 $lightBackground1: $lightTextSecondary;
@@ -81,7 +79,6 @@ $appHeaderBG: $darkTextColor;
 // misc colors
 $skillsColor: $primaryColor;
 $appLink: $secondaryColor;
-
 
 // githubRepo specific colors
 $githubRepoCardLanguageColorBG: #0000ff;
