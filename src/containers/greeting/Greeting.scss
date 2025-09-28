@@ -3,7 +3,6 @@
 .main {
   width: 90%;
   padding: 20px 10px;
-  
 }
 .greet-main {
   width: 90%;
@@ -12,7 +11,6 @@
   margin-top: 1rem;
 }
 
-
 .subTitle {
   color: $subTitle !important;
 }
@@ -20,11 +18,9 @@
 .greeting-main {
   display: flex;
   align-items: center;
-  
 }
 
 .greeting-main > * {
-  
   margin-bottom: 5px;
 }
 .button-greeting-div {
@@ -44,11 +40,10 @@
   line-height: 40px;
 }
 
-.greeting-image-div{  
+.greeting-image-div {
   display: flex;
   justify-content: center;
   margin: 30px;
-  
 }
 
 .greeting-image-div > img {
@@ -61,8 +56,6 @@
   transition: all 0.25s ease;
   border-radius: 10px; /* Adjust the radius as needed */
   border: 2px solid $buttonHover; /* You can change the border width and color */
-  
-  
 }
 
 .wave-emoji {
@@ -73,7 +66,6 @@
   transform-origin: 70% 70%;
 }
 
-
 .nodding-image {
   animation-duration: 1.8s;
   animation-iteration-count: infinite;
@@ -81,7 +73,7 @@
   display: inline-block;
   width: 7%;
   content: url("../../../public/android-chrome-192x192.png");
-  
+
   transform-origin: 70% 70%;
 }
 
@@ -109,24 +101,23 @@
   }
 }
 @keyframes nod {
-  0%, 100% {
+  0%,
+  100% {
     transform: scaleY(1);
   }
   20% {
     transform: scaleY(0.8);
   }
   40% {
-    transform: scaleY(1.0);
+    transform: scaleY(1);
   }
   60% {
     transform: scaleY(0.6);
   }
   80% {
-    transform: scaleY(1.0);
+    transform: scaleY(1);
   }
 }
-
-
 
 /* Media Query */
 @media (max-width: 1380px) {
