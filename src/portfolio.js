@@ -100,7 +100,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Curtin University",
-      logo: require("./assets/images/curtinlogo.jpg"),
+      logo: require("./assets/images/curtinlogo.jpeg"),
       subHeader: "Bachelor of Computing: Software Engineering",
       duration: "February 2021 - November 2024",
       desc: "Completed units with development in .NET, MVC, SQL database, Agile Development etc.",
@@ -112,7 +112,7 @@ const educationInfo = {
     },
     {
       schoolName: "Curtin University",
-      logo: require("./assets/images/curtinlogo.jpg"),
+      logo: require("./assets/images/curtinlogo.jpeg"),
       subHeader: "Bachelor of Science in Nanotechnology",
       duration: "February 2005 - November 2012",
       desc: "Completed a Computation Chemistry dissertation on the Chemisorption of Carbon Nanotubes.",
@@ -157,7 +157,7 @@ const workExperiences = {
     {
       role: "Senior Peer Learning Facilitator",
       company: "Curtin University, UniPASS",
-      companylogo: require("./assets/images/curtinlogo.jpg"),
+      companylogo: require("./assets/images/curtinlogo.jpeg"),
       date: "January 2022 – Present",
       desc: "Planned and ran collaborative weekly workshops guiding computing students through challenging programming concepts."
     },
@@ -174,7 +174,7 @@ const workExperiences = {
     {
       role: "Sessional Computing Tutor",
       company: "Curtin University, EECMS",
-      companylogo: require("./assets/images/curtinlogo.jpg"),
+      companylogo: require("./assets/images/curtinlogo.jpeg"),
       date: "January 2022 – Present",
       desc: "Guide students through workshop materials to foster a solid understanding of programming concepts and encourage the development of good computing practices. Focus will be on languages such as C and Java."
     }
@@ -225,7 +225,7 @@ const achievementSection = {
       title: "VC List",
       subtitle:
         "Obtained VC List recognition at Curtin University for achieving the top 1% of grades in 2021.",
-      image: require("./assets/images/curtinlogo.png"),
+      image: require("./assets/images/curtinbanner.png"),
       imageAlt: "Curtin University Logo",
       footerLink: []
     }
