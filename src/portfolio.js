@@ -105,6 +105,7 @@ const educationInfo = {
       duration: "February 2021 - November 2024",
       desc: "Completed units with development in .NET, MVC, SQL database, Agile Development etc.",
       descBullets: [
+        "Recieved best student in Software Engineering Major, `Mechanical Rock` Award 2024",
         "Obtained letter of commendation multiple times",
         "Achieved VC list",
         "Increased student engagement as a ComSSA member and UniPASS employee"
@@ -128,7 +129,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -147,6 +148,13 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Graduate Software Engineer",
+      company: "Bankwest",
+      companylogo: require("./assets/images/bankwestlogo.jpeg"),
+      date: "February 2025 – Present",
+      desc: "Developing full stack technologies, cloud depolyment solutions and business process improvements."
+    },
     {
       role: "Intern",
       company: "AVI",
@@ -225,10 +233,26 @@ const achievementSection = {
       title: "VC List",
       subtitle:
         "Obtained VC List recognition at Curtin University for achieving the top 1% of grades in 2021.",
-      image: require("./assets/images/curtinbanner.png"),
+      image: require("./assets/images/vclistlogo.jpg"),
       imageAlt: "Curtin University Logo",
       footerLink: []
-    }
+    },
+    {
+    title: "Technology Award",
+    subtitle:
+      "Received for developing a business management system application and an automated mailing task solution for AVI.",
+    image: require("./assets/images/industryexchangelogo.jpeg"),
+    imageAlt: "Curtin Industry Exchange Logo",
+    footerLink: []
+  },
+  {
+    title: "Mechanical Rock Award",
+    subtitle:
+      "Obtained the Mechanical Rock award for being recongised as the best Software Engineering student in 2024.",
+    image: require("./assets/images/curtinlogo.jpeg"),
+    imageAlt: "Curtin University Logo",
+    footerLink: []
+  },
   ],
   display: true // Set false to hide this section, defaults to true
 };
