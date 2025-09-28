@@ -12,7 +12,7 @@ import {
   talkSection,
   achievementSection,
   bigProjects,
-  educationInfo
+  educationInfo,
 } from "../../portfolio";
 
 function Header() {
