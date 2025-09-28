@@ -3,13 +3,12 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/codeOnScreen"; // Rename to your file name for custom animation
 
 // Splash Screen
 
 const splashScreen = {
   enabled: false, // set false to disable splash screen
-  animation: splashAnimation,
+  animation: null,
   duration: 2000 // Set animation duration as per your animation
 };
 
@@ -155,7 +154,7 @@ const workExperiences = {
     {
       role: "Intern",
       company: "AVI",
-      companylogo: require("./assets/images/avilogo.png"),
+      companylogo: require("./assets/images/avilogo.jpeg"),
       date: "November 2023 – February 2024",
       desc: "Developed a task management application, both a web and mobile application and SQL database."
     },
